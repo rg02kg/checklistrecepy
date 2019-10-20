@@ -164,7 +164,7 @@ Start with record-level terms which contain metadata about the dataset (which is
 ### language
 
 ```{r}
-taxon %<>% mutate(dwc_language = "my_language") # e.g. "en"
+taxon %<>% mutate(dwc_language = "en") # e.g. "en"
 ```
 
 ### license
